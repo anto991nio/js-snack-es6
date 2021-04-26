@@ -22,3 +22,18 @@ function generateRandomNumbers(min, max) {
 
 }
 
+var nuoveSquadreCalcio = []
+
+
+
+for (var i=0 ; i < squadreCalcio.length; i++){
+    const {nome , falliSubiti} =squadreCalcio[i]
+
+    nuoveSquadreCalcio.push({nome : nome , falliSubiti:falliSubiti} )
+
+
+
+}
+
+console.log(nuoveSquadreCalcio)
+
